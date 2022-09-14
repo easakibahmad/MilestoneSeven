@@ -1,8 +1,10 @@
+// falsy value
 // let num = undefined
 // let num = 0
 // let num = false
 // let num = ''
 
+// truthy value
 // let num = -1
 // let num = 2
 // let num = '..'

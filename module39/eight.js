@@ -1,14 +1,16 @@
-function scopeTest ( a, b, c )
+// non-primitive type is passed by value
+function scopeTest ()
 {
-    // console.log( arguments )
+    console.log( arguments )
     // console.log( arguments[ 4 ] )
     // console.log( ...arguments )
     // for ( const m of arguments )
     // {
     //     console.log( m )
     // }
-    return a * b
+    // return a * b
 }
+scopeTest()
 // this arguments is different from inside funtion arguments
 // console.log( arguments ) 
 // console.log( scopeTest( 1, 2, 3, 4, 5, 6, 7 ) )
@@ -18,7 +20,7 @@ function scopeTest ( a, b, c )
 
 
 
-
+// primitive type is passed by reference
 // part two
 let a = 2
 let b = 4
@@ -37,6 +39,6 @@ function nameChange ( one )
     one.name = 'jhon'
     one.age = 22
 }
-console.log( objOne )
+// console.log( objOne )
 nameChange( objOne )
-console.log( objOne )
+// console.log( objOne )

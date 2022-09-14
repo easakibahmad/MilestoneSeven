@@ -32,4 +32,4 @@ delete arr[ 4 ]
 var name = undefined
 // console.log( name )
 // console.log( typeof null )
-console.log( typeof undefined )
+// console.log( typeof undefined )

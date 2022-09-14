@@ -49,8 +49,8 @@ function three ( a )
 //     console.log( 'hello' )
 // }
 
-namey()
-const namey = function ()
-{
-    console.log( 'hello' )
-}
+// namey()
+// const namey = function ()
+// {
+//     console.log( 'hello' )
+// }
